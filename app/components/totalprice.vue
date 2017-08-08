@@ -29,10 +29,10 @@
 </script>
 <style scoped>
 	.buycarfooter{
-		height: 50px;
+		height: 0.666667rem;
 		width: 100%;
-		border-top: 1px solid #ddd;
-		font-size: 16px;
+		border-top: 0.013333rem solid #ddd;
+		font-size: 0.213333rem;
 		overflow: hidden;
 		position: fixed;
 		bottom: 0;
@@ -46,7 +46,7 @@
 		width: 70%;
 		float: left;
 		height: 100%;
-		padding-left: 50px;
+		padding-left: 0.666667rem;
 	}
 	.calculate{
 		box-sizing:border-box;
@@ -54,12 +54,12 @@
 		background-color:#d7063b;
 		height: 100%;
 		float: left;
-		line-height: 50px;
+		line-height: 0.666667rem;
 		text-align: center;
 		color: white;
 	}
 	.nomail{
-		font-size: 14px;
+		font-size: 0.186667rem;
 		color: #dadada;
 	}
 </style>

@@ -130,14 +130,6 @@
 				};
 				var page = 1;
 				var sort_price_status = this.sort_price_status;
-				// var xhr = new XMLHttpRequest();
-				// xhr.onreadystatechange = function() {
-				// 	if(xhr.readyState == 4 && xhr.status == 200) {
-				// 		self.$store.dispatch('classifyList', JSON.parse(xhr.responseText))
-				// 	}
-				// }
-				// xhr.open('GET', 'http://localhost:1111/sort_price?status=' + sort_price_status + '&classify=' + self.$route.query.classify + '&page=' + page, true);
-				// xhr.send();
 			}
 		}
 	}
@@ -145,7 +137,7 @@
 <style scoped>
 	#nav {
 		font-size: 0.14rem;
-		margin-top: 50px;
+		margin-top: 0.666667rem;
 	}
 	
 	.list_nav {
@@ -154,19 +146,19 @@
 	}
 	
 	.list_nav .lv_ul {
-		border-bottom: 1px solid #eee;
+		border-bottom: 0.013333rem solid #eee;
 		padding: 0.2rem, 0;
 		display: flex;
 		align-items: center;
 		height: 0.4rem;
-		border-top: 1px solid #d5d5d5;
+		border-top: 0.013333rem solid #d5d5d5;
 	}
 	
 	.list_nav .lv_ul li {
 		flex: 1;
 		padding: 0 0.1rem;
 		text-align: center;
-		border-right: 1px solid #eee;
+		border-right: 0.013333rem solid #eee;
 		height: 0.2rem;
 		position: relative;
 	}
@@ -210,7 +202,7 @@
 	}
 	
 	.pos .list_wrap li {
-		border-bottom: 1px solid #d5d5d5;
+		border-bottom: 0.013333rem solid #d5d5d5;
 		line-height: 0.4rem;
 		margin-left: 0.12rem;
 		padding-left: 3.5%;
@@ -225,8 +217,8 @@
 		height: 100%;
 		width: 100%;
 		bottom: 0;
-		max-width: 800px;
-		min-width: 320px;
+		max-width: 10.666667rem;
+		min-width: 4.266667rem;
 		display: none;
 		z-index: 55;
 	}
@@ -241,7 +233,7 @@
 		padding-right: 0.04rem;
 		box-sizing: border-box;
 		background-color: #fff;
-		border-bottom: 1px solid #eee;
+		border-bottom: 0.013333rem solid #eee;
 	}
 	
 	.tagUl li {

@@ -27,20 +27,6 @@
 			goSearchlist(){
 				window.location.href = "#/search/searchlist";
 			},
-			//模糊搜索
-			// search(keywords){
-			// 	var self = this;
-			// 	this.$http.get("http://localhost:1111/list",{
-			// 			params:{
-			// 				keyword:this.keywords,
-			// 			}
-			// 		}).then((response) =>{
-			// 			this.$store.state.goods_search=response.body;
-			// 		}).catch((error)=>{
-	
-			// 		});
-			// }
-
 		},
 		computed:{
 		},
@@ -73,11 +59,11 @@
 		display: flex;
 		position:fixed;
 		top: 0;
-		font-size: 14px;
+		font-size: 0.186667rem;
 		width:100%;
-		height:50px;
-		padding:10px;
-		border-bottom: 1px solid #d5d5d5;
+		height:0.666667rem;
+		padding:0.133333rem;
+		border-bottom: 0.013333rem solid #d5d5d5;
 		background-color: #fff;
 		z-index: 2000;
 	}
@@ -85,48 +71,44 @@
 	text-align: center;
     position: absolute;
     left: 0;
-    top: 10px;
+    top: 0.133333rem;
     display: block;
-    width: 30px;
-    height: 30px;
-    font-size: 24px;
-    line-height: 30px;
+    width: 0.4rem;
+    height: 0.4rem;
+    font-size: 0.32rem;
+    line-height: 0.4rem;
 	}
 	.top_box .search {
     display: flex;
-    margin-left: 35px;
-    margin-right: 14px;
-    /*padding: 0 10px;*/
-    padding-left: 4px;
-    border-radius: 4px;
-    height: 30px;
+    margin-left: 0.466667rem;
+    margin-right: 0.186667rem;
+    padding-left: 0.053333rem;
+    border-radius: 0.053333rem;
+    height: 0.4rem;
     background: #e5e5e5;
     align-items: center;
-    line-height: 30px;
-    /*flex: 1;*/
+    line-height: 0.4rem;
 }
 .top_box input{
    	outline: 0;
-    /*flex: 1;*/
-    padding: 0 7px;
+    padding: 0 0.093333rem;
     border: none;
     display: block;
     background: #e5e5e5;
-    border-radius: 4px;
-    width: 222px;
+    border-radius: 0.053333rem;
+    width: 2.96rem;
 }
  .top_box .search .icon-sousuo{
- 	margin-right: 8px;
+ 	margin-right: 0.106667rem;
  }
  .top_box .bar{
- 	font-size: 14px;
- 	/* margin-left: 7px; */
- 	width:50px;
- 	height:30px;
- 	line-height: 30px;
+ 	font-size: 0.186667rem;
+ 	width:0.666667rem;
+ 	height:0.4rem;
+ 	line-height: 0.4rem;
  	background-color: #d7063b;
  	color:white;
- 	border-radius:4px;
+ 	border-radius:0.053333rem;
  	text-align: center;
  }
 </style>

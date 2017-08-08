@@ -22,32 +22,32 @@
 <style scoped>
 	p{
 		width: 100%;
-		height: 50px;
-		line-height: 50px;
+		height: 0.666667rem;
+		line-height: 0.666667rem;
 		background-color: #fff;
 		text-align: center;
-		font-size: 16px;
+		font-size: 0.213333rem;
 		/*font-weight: bolder;*/
 		position: relative;
-		border-bottom: 1px solid #ddd;
+		border-bottom: 0.013333rem solid #ddd;
 	}
 	.icon-fanhui1{
-		font-size: 20px;
+		font-size: 0.266667rem;
 		position: absolute;
-		top: 2px;
-		left: 10px;
+		top: 0.026667rem;
+		left: 0.133333rem;
 	}
 	.compile{
 		position: absolute;
-		top: 0px;
-		right: 50px;
+		top: 0;
+		right: 0.666667rem;
 		/*left: 0;*/
 	}
 	.icon-liebiao{
-		font-size: 20px;
+		font-size: 0.266667rem;
 		position: absolute;
 		top: 0px;
-		right: 10px;
+		right: 0.133333rem;
 	}
 
 </style>

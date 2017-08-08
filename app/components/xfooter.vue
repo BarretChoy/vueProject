@@ -108,4 +108,7 @@
 		width: 0.346666rem;
 		height: 0.346666rem;
 	}
+	.iconfont{
+		font-size: 0.213333rem;
+	}
 </style>

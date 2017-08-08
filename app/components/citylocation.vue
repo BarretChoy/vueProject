@@ -104,7 +104,6 @@
 	}
 
 	.changeTips{
-		font-size: 0.24rem;
 		color:#d7063b;
 	}
 </style>

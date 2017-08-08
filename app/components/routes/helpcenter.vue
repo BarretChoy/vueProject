@@ -99,11 +99,11 @@
 		text-align: center;
 	}
 	.helpfoot{
-		padding-top: 40px;
+		padding-top: 0.533333rem;
 		text-align: center;
-		padding-bottom: 20px;
+		padding-bottom: 0.266667rem;
 		/*color: #ccc;*/
-		font-size: 12px;
+		font-size: 0.16rem;
 		background-color: #ddd;
 	}
 </style>

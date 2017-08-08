@@ -161,15 +161,15 @@
 	width:100%;
 }
 .commentType .change{
-	height:46px;
+	height:0.613333rem;
 	overflow: hidden;
 	transition:height 1s linear;
 }
 .commentType .impressall{
-	font-size: 14px;
-	padding:10px;
+	font-size: 0.186667rem;
+	padding:0.133333rem;
 	display: flex;
-	max-height: 350px;
+	max-height: 4.666667rem;
 	transition:height 1s linear; 
 } 
 .commentType .impressall .more_bq{
@@ -180,15 +180,15 @@
 }
 .commentType .impressall .pl ul li{
 	float: left;
-	padding:5px;
-	margin-right: 7px;
-	margin-bottom: 5px;
+	padding:0.066667rem;
+	margin-right: 0.093333rem;
+	margin-bottom: 0.066667rem;
 	background-color: #f5f5f5;
-	border-radius: 8px;
+	border-radius: 0.106667rem;
 }
 .commentType .down{
-	height:24px;
-	line-height: 24px;
+	height:0.32rem;
+	line-height: 0.32rem;
 	position: relative;
 }
 .commentType .down i{
@@ -197,51 +197,51 @@
 	left: 50%; 
 }
 	.tophighpraise{
-		margin-top: 40px;
+		margin-top: 0.533333rem;
 		background-color: white;
 		width: 100%;
 		position: fixed;
 		top:0;
 		left:0;
-		border-bottom: 1px solid #d5d5d5;
+		border-bottom: 0.013333rem solid #d5d5d5;
 		z-index: 100; 
 	}
 	.highpraises{
-		padding:10px 0;
-		padding-right: 12px;
-		font-size: 14px;
+		padding:0.133333rem 0;
+		padding-right: 0.16rem;
+		font-size: 0.186667rem;
 		display: flex;
-		border-bottom: 1px solid #d5d5d5;
+		border-bottom: 0.013333rem solid #d5d5d5;
 	}
 	.highpraise{
-		height:49px;
+		height:0.653333rem;
 		overflow: hidden;
 	}
 	.percentage{
 		width: 33%;
-		padding:10px;
+		padding:0.133333rem;
 		height:auto;
 		color:#666;
 		vertical-align: middle;
 		align-items: center;
-		border-right: 1px solid #d5d5d5;
+		border-right: 0.013333rem solid #d5d5d5;
 	}
 	.percentage p{
 		color:#d7063b;
-		border-bottom: 2px;
+		border-bottom: 0.026667rem;
 	}
 	.percentage p b:nth-child(2){
-		margin-left: 4px;
-		font-size: 24px;
+		margin-left: 0.053333rem;
+		font-size: 0.32rem;
 	}
 	#impressall{
 		position: relative;
 	}
 	.commentlist{
 		align-items: center;
-		margin-top: 2px;
+		margin-top: 0.026667rem;
 		width: 65%;
-		font-size: 14px;
+		font-size: 0.186667rem;
 	}
 	.commentlist .current{
 		background-color:#d7063b;
@@ -249,17 +249,17 @@
 	}
 	.commentlist p{
 		float:left;
-		padding:0 6px;
-		margin-left: 10px;
-		margin-bottom: 6px;
+		padding:0 0.08rem;
+		margin-left: 0.133333rem;
+		margin-bottom: 0.08rem;
 		background-color:#f5f5f5;
-		border-radius: 4px;
-		height:29px;
-		line-height: 29px;
+		border-radius: 0.053333rem;
+		height:0.386667rem;
+		line-height: 0.386667rem;
 	}
 	.highpraise{
-		padding:10px 12px;
-		font-size: 14px;
+		padding:0.133333rem 0.16rem;
+		font-size: 0.186667rem;
 		display: flex;
 	}
 	.title{
@@ -271,36 +271,36 @@
 	.commentlists{
 		width: 78%;
 		align-items: center;
-		margin-top: 2px;
-		font-size: 14px;
+		margin-top: 0.026667rem;
+		font-size: 0.186667rem;
 	}
 	.commentlists p{
 		float:left;
-		padding:0 6px;
-		margin-left: 10px;
-		margin-bottom: 6px;
+		padding:0 0.08rem;
+		margin-left: 0.133333rem;
+		margin-bottom: 0.08rem;
 		background-color:#f5f5f5;
-		border-radius: 4px;
-		height:29px;
-		line-height: 29px;
+		border-radius: 0.053333rem;
+		height:0.386667rem;
+		line-height: 0.386667rem;
 	}
 	.commentArea{
-		margin-top: 320px;
+		margin-top: 4.266667rem;
 		z-index: 0;
 		background-color: #fff;
-		font-size: 14px;
-		margin-bottom: 40px;
+		font-size: 0.186667rem;
+		margin-bottom: 0.533333rem;
 	}
 	.changeA{
-		margin-top: 204px;
+		margin-top: 2.72rem;
 	}
 	.commentArea li{
-		padding:10px;
-		border-bottom: 1px solid #ccc;	
+		padding:0.133333rem;
+		border-bottom: 0.013333rem solid #ccc;	
 	}
 
 	 .commentArea li .icon{
-		font-size: 24px;
+		font-size: 0.32rem;
 	} 
 	.commentArea li .icon-niu{
 		color:#d7063b;
@@ -309,14 +309,14 @@
 		color:#d7063b;
 	}
 	.commentArea li span:nth-child(2){
-		font-size: 16px;
+		font-size: 0.213333rem;
 	}
 	.commentArea li p:nth-child(2){
-		font-size: 14px;
-		padding:4px 10px;
+		font-size: 0.186667rem;
+		padding:0.053333rem 0.133333rem;
 	}
 	.commentArea li .like{
-		padding: 10px 12px;
+		padding: 0.133333rem 0.16rem;
 		position: relative;
 	}
 	.clearfix:after {
@@ -327,9 +327,9 @@
 	} 
 	.commentArea li .heart{
 		position: absolute;
-		top: 0;right:12px;
+		top: 0;right:0.16rem;
 	}
 	.commentArea li .heart_num{
-		padding:0 10px;
+		padding:0 0.133333rem;
 	}
 </style>

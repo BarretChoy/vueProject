@@ -229,22 +229,22 @@
 	}
 	.carlist .car .goodNum span{
 		flex: 1;
-		border:1px solid #fff;
+		border:0.013333rem solid #fff;
 		display: block;
-		height:37px;
-		padding:9px;
-		margin:0 4px;
-		line-height: 21px;
+		height:0.493333rem;
+		padding:0.12rem;
+		margin:0 0.053333rem;
+		line-height: 0.28rem;
 	}
 	.carlist .car .submits{
 		width:25%;
-		height:50px;
+		height:0.666667rem;
 		background-color: #d7063b;
-		font-size: 14px;
+		font-size: 0.186667rem;
 		text-align: center;
-		line-height: 50px;
+		line-height: 0.666667rem;
 		color:#fff;
-		margin-right: 1px;
+		margin-right: 0.013333rem;
 	}
 	.gallery{
 		display: flex;
@@ -258,7 +258,7 @@
 	
 	.gallery .container {
 		width: 100%;
-		height: 200px;
+		height: 2.666667rem;
 		position: absolute;
 		top:50%;
 		margin-top: -62%;
@@ -286,65 +286,65 @@
 		position: fixed;
 		top: 0;
 		width: 100%;
-		height: 40px;
+		height: 0.533333rem;
 		background-color: #f9f9f9;
-		font-size: 14px;
-		border-bottom: 1px solid #e5e5e5;
+		font-size: 0.186667rem;
+		border-bottom: 0.013333rem solid #e5e5e5;
 		z-index: 555;
 	}
 	
 	.top {
-		height: 40px;
-		width: 160px;
+		height: 0.533333rem;
+		width: 2.133333rem;
 		margin: 0 auto;
 	}
 	
 	.top ul li {
 		float: left;
 		text-align: center;
-		height: 40px;
-		line-height: 40px;
-		margin-right: 10px;
-		margin-left: 15px;
+		height: 0.533333rem;
+		line-height: 0.533333rem;
+		margin-right: 0.133333rem;
+		margin-left: 0.2rem;
 	}
 	
 	.top ul .current {
-		border-bottom: 2px solid #FF5053;
+		border-bottom: 0.026667rem solid #FF5053;
 		color: #FF5053;
 	}
 	
 	.icon {
 		display: block;
-		width: 40px;
-		height: 40px;
-		font-size: 20px;
-		line-height: 40px;
+		width: 0.533333rem;
+		height: 0.533333rem;
+		font-size: 0.266667rem;
+		line-height: 0.533333rem;
 		position: absolute;
 		text-align: center;
 		top: 0;
 	}
 	
 	.back {
-		left: 7px;
+		left: 0.093333rem;
 	}
 	
 	.more {
-		right: 7px;
+		right: 0.093333rem;
 	}
 	
 	footer {
 		width: 100%;
 		position: fixed;
 		bottom: 0;
-		height: 50px;
+		height: 0.666667rem;
 		background-color: white;
-		font-size: 14px;
+		font-size: 0.186667rem;
 		z-index: 998;
 	}
 	
 	footer ul {
 		overflow: hidden;
-		padding-left: 2px;
+		padding-left: 0.026667rem;
 		display: flex;
 	}
 	
@@ -359,29 +359,29 @@
 	}
 	
 	footer ul li p:nth-child(1) {
-		margin-bottom: 2px;
-		margin-top: 2px;
+		margin-bottom: 0.026667rem;
+		margin-top: 0.026667rem;
 	}
 	
 	footer ul li:nth-child(3) {
 		background-color: #FF5053;
 		text-align: center;
-		height: 50px;
-		line-height: 50px;
+		height: 0.666667rem;
+		line-height: 0.666667rem;
 		color: white;
 	}
 	
 	footer ul li .icon {
-		font-size: 21px;
+		font-size: 0.28rem;
 		display: block;
-		width: 21px;
-		line-height: 21px;
-		height: 21px;
+		width: 0.28rem;
+		line-height: 0.28rem;
+		height: 0.28rem;
 		position: relative;
 		margin: 0 auto;
 	}
 	footer ul li .add-to-car{
 		background-color: #d7063b;
-		line-height: 50px;
+		line-height: 0.666667rem;
 	}
 </style>

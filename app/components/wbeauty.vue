@@ -235,33 +235,33 @@
 			background-color: #fff;
 		}
 		#r_wrapper .contain{
-			padding-left:90px;
-			padding-right:10px; 
-			padding-top: 10px;
+			padding-left:1.2rem;
+			padding-right:0.133333rem; 
+			padding-top: 0.133333rem;
 		}
 		#r_wrapper .banner a img{
-			height:90px;
+			height:1.2rem;
 			width: 100%; 
 		}
 		#listblock{
 			position: relative;
-			border-bottom: 1px solid #eee;
-			margin:0 7px;
+			border-bottom: 0.013333rem solid #eee;
+			margin:0 0.093333rem;
 		}
 		#listblock .title {
-			font-size: 14px;
+			font-size: 0.186667rem;
 			color: #000;
 			position: relative;
-			line-height: 40px;
-			height: 40px;
-			padding-left: 14px;
+			line-height: 0.533333rem;
+			height: 0.533333rem;
+			padding-left: 0.186667rem;
 		} 
 		#listblock .title .icon{
 			position: absolute;
-			right:10px;
-			font-size: 14px;
-			line-height: 40px;
-			height:40px;
+			right:0.133333rem;
+			font-size: 0.186667rem;
+			line-height: 0.533333rem;
+			height:0.533333rem;
 			text-align: center;
 			color:#666;
 		}
@@ -269,25 +269,25 @@
 			float: left;
 			width: 31.4%;
 			margin-right: 1.4%;
-			margin-bottom: 10px;
-			height:106px;
+			margin-bottom: 0.133333rem;
+			height:1.413333rem;
 		}
 		#listblock>ul li a{
 			display: block;
 			color:#333;
 		}
 		#listblock>ul li p {
-			font-size: 14px;
+			font-size: 0.186667rem;
 			color: #000;
-			padding-top: 5px;
-			padding-bottom: 12px;
+			padding-top: 0.066667rem;
+			padding-bottom: 0.16rem;
 			width: 100%;
 			text-align: center;
 		}
 		#listblock>ul li img{
 			border:none;
-			width:68px;
-			height:68px;
+			width:0.906667rem;
+			height:0.906667rem;
 			margin:auto;
 			display: block;
 		}

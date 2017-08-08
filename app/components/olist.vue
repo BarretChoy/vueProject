@@ -2,35 +2,35 @@
 	<div class="listproduct">
 		<ul>
 			<li v-for='i in classifyList'>
-			<a :href='"#/detail/detailInfo?id="+i.id'>
-				<div class="listproductimg">
-					<img :src="i.goods_img">
-				</div>
-				<div class="listproductinfo">
-					<p class="productdesc">
-						<span class="ziying">
-							<img src="//st02.fn-mart.com/vue-statics/src/assets/images/goods/icon_selfsupport2_2x.png">
-						</span>
-						{{i.goods_name}}
-					</p>
-					<p class="listproduct_sale">
-						<span style="color:#c70034">￥</span>
-						<span class="product_now_price">{{i.goods_price_now}}</span>
-						<span class="product_old_price">
-							<s>￥{{i.goods_price_original}}</s>
-						</span>
-						<span class="limittime_sale">限时特惠</span>
-					</p>
-					<p class="comment">
-						<span class="nicecomment">好评率100%</span>
-						<span class="comment_count">评论{{i.page}}条</span>
+				<a :href='"#/detail/detailInfo?id="+i.id'>
+					<div class="listproductimg">
+						<img :src="i.goods_img">
+					</div>
+					<div class="listproductinfo">
+						<p class="productdesc">
+							<span class="ziying">
+								<img src="//st02.fn-mart.com/vue-statics/src/assets/images/goods/icon_selfsupport2_2x.png">
+							</span>
+							{{i.goods_name}}
+						</p>
+						<p class="listproduct_sale">
+							<span style="color:#c70034">￥</span>
+							<span class="product_now_price">{{i.goods_price_now}}</span>
+							<span class="product_old_price">
+								<s>￥{{i.goods_price_original}}</s>
+							</span>
+							<span class="limittime_sale">限时特惠</span>
+						</p>
+						<p class="comment">
+							<span class="nicecomment">好评率100%</span>
+							<span class="comment_count">评论{{i.goods_price_original}}条</span>
+							
+						</p>
 						
-					</p>
-					
-				</div>
-				</a>
-				<a class="buy_product" @click="addCar(i.id)">
-					<i class="iconfont icon-gouwuche2"></i>
+					</div>
+					<a class="buy_product" @click="addCar(i.id)">
+						<i class="iconfont icon-gouwuche2"></i>
+					</a>
 				</a>
 			</li>
 		</ul>
@@ -114,16 +114,17 @@
 		padding: 0.066666rem;
 	}
 	.listproductimg{
-		padding-right: 10px;
+		padding-right: 0.133333rem;
 	}
 	.listproductimg>img{
-		width: 1.6rem;
-		height: 1.6rem;
+		width: 1.4rem;
+		height: 1.4rem;
 	}
 	.listproductinfo{
 		font-size: 0.16rem;
-		width: 3.066666rem;
-		height: 1.6rem;
+		width: 2.7rem;
+		height: 1.5rem;
+		margin: 0 auto;
 		position: relative;
 	}
 	.ziying{
@@ -137,8 +138,8 @@
 		height: 0.2rem;
 	}
 	.listproduct_sale{
-		margin-top: 0.333333rem;
-		margin-bottom: 0.133333rem;
+		margin-top: 0.25rem;
+		margin-bottom: 0.15rem;
 	}
 	.product_now_price{
 		font-size: 0.213333rem;

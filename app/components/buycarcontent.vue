@@ -227,58 +227,58 @@
 	}
 	.nothing{
 		text-align: center;
-		line-height: 36px;
-		font-size: 16px;
+		line-height: 0.48rem;
+		font-size: 0.213333rem;
 		color: #666;
 	}
 	.gotohome{
 		width: 90%;
 		margin: 0 auto;
-		line-height: 40px;
+		line-height: 0.533333rem;
 		background-color: #d7063b;
-		font-size: 16px;
+		font-size: 0.213333rem;
 		text-align: center;
 		/*margin-bottom: 20px;*/
-		margin-top: 10px;
+		margin-top: 0.133333rem;
 	}
 	.gotohome>a{
 		color: white;
 	}
 	.feiniu{
 		width:100%;
-		font-size: 14px;
+		font-size: 0.186667rem;
 		background-color: #fff;
 	}
 	.autotrophy{
 		margin: 0 auto;
 		width: 96%;
-		height: 40px;
+		height: 0.533333rem;
 		position: relative;
-		border-bottom: 1px solid #ddd;
+		border-bottom: 0.013333rem solid #ddd;
 	}
 	.remind_postage{
 		width: 100%;
-		height: 20px;
-		line-height: 20px;
-		font-size: 12px;
+		height: 0.266667rem;
+		line-height: 0.266667rem;
+		font-size: 0.16rem;
 		background-color: #ff6162;
 		text-align: center;
 		color: white;
 	}
 	input{
-		width: 20px;
-		height: 20px;
+		width: 0.266667rem;
+		height: 0.266667rem;
 		text-align: center;
 	}
 	.chooseall{
 		position: absolute;
 		left: 6%;
 		top: 50%;
-		margin-top: -10px;
+		margin-top: -0.133333rem;
 	}
 	.feiniuword{
-		padding-left: 50px;
-		line-height: 40px;
+		padding-left: 0.666667rem;
+		line-height: 0.533333rem;
 	}
 	.icon-niu{
 		color: red;
@@ -287,37 +287,37 @@
 		position: relative;
 		margin: 0 auto;
 		width: 96%;
-		border-bottom: 1px solid #ddd;
-		margin-top: 10px;
-		padding-bottom: 10px;
+		border-bottom: 0.013333rem solid #ddd;
+		margin-top: 0.133333rem;
+		padding-bottom: 0.133333rem;
 	}
 	.choose_radio{
 		position: absolute;
 		left: 6%;
 		top: 50%;
-		margin-top: -10px;
+		margin-top: -0.133333rem;
 	}
 	.goods_img{
-		padding-left: 60px;
+		padding-left: 0.8rem;
 		display: inline-block;
-		margin-bottom: 20px;
+		margin-bottom: 0.266667rem;
 
 	}
 	.goods_img img{
-		height: 80px;
-		width: 80px;
+		height: 1.066667rem;
+		width: 1.066667rem;
 	}
 	.goods_desc{
 		display: inline-block;
 		width: 50%;
 		height: 100%;
-		padding-left: 10px;
+		padding-left: 0.133333rem;
 		position: relative;
 	}
 	.desc{
-		height: 40px;
-		padding-right: 20px;
-		font-size: 12px;
+		height: 0.533333rem;
+		padding-right: 0.266667rem;
+		font-size: 0.16rem;
 		display: inline-block;
 		text-overflow: ellipsis;
 		overflow: hidden;
@@ -329,32 +329,30 @@
 		right: 0;
 	}
 	.weight{
-		font-size: 12px;
+		font-size: 0.16rem;
 		color: #ddd;
 	}
 	.price{
 		color: red;
 	}
 	.limitsale{
-		font-size: 12px;
+		font-size: 0.16rem;
 		color: red;
-		border: 1px solid red;
+		border: 0.013333rem solid red;
 	}
 	.calcount{
 		display: inline-block;
-		padding-left: 16px;
+		padding-left: 0.213333rem;
 	}
 	
 	.subtract,.val,.plus{
-		height: 24px;
-		width: 24px;
+		height: 0.32rem;
+		width: 0.32rem;
 		outline:none;
 
 	}
 	.subtract{
-		/*padding-left: 20px;*/
-		margin-left: 10px;
-		/*border-right: 0px;*/
+		margin-left: 0.133333rem;
 	}
 	.mu-dialog-body{
 		text-align: center;

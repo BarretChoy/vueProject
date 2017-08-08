@@ -169,160 +169,160 @@
 </script>
 <style scoped>
 	.banner{
-		padding-top:40px;
+		padding-top:0.533333rem;
 		width: 100%;
 	}
 	.banner img{
 		width:100%
 	}
 	.detInfo{
-		padding:14px 0 9px 0;
+		padding:0.186667rem 0 0.12rem 0;
 	}
 	.detInfo .infoTitle{
-		padding:0 12px 0 21px;
-		font-size:14px;
+		padding:0 0.16rem 0 0.28rem;
+		font-size:0.186667rem;
 	}
 	.detInfo .infoTitle span{
-		font-size: 12px;
+		font-size: 0.16rem;
 		color:#d7063b;
 		display:inline;
-		border:1px solid #d7063b;
-		border-radius: 2px;
-		margin-right: 4px;
+		border:0.013333rem solid #d7063b;
+		border-radius: 0.026667rem;
+		margin-right: 0.053333rem;
 	}
 	.detInfo .infoTitle h3{
-		font-size: 14px;
+		font-size: 0.186667rem;
 		display:inline;
 	}
 	.infoCase{
-		padding:5px 12px 4px 20px;
+		padding:0.066667rem 0.16rem 0.053333rem 0.266667rem;
 	}
 	.infoCase h3{
-		font-size: 12px;
+		font-size: 0.16rem;
 		color:#d7063b;
 	}
 	.orcase{
 		color:#d7063b;
-		padding:0 0 12px 18px;
-		font-size: 14px;
+		padding:0 0 0.16rem 0.24rem;
+		font-size: 0.186667rem;
 	}
 	.orcase i{
-		font-size: 20px;
-		margin-right: 10px;
+		font-size: 0.266667rem;
+		margin-right: 0.133333rem;
 	}
 	.orcase .save{
-		font-size: 12px;
+		font-size: 0.16rem;
 		color:#d7063b;
 		display:inline;
-		border:1px solid #e60012;
-		border-radius: 2px;
-		margin-right: 4px;
+		border:0.013333rem solid #e60012;
+		border-radius: 0.026667rem;
+		margin-right: 0.053333rem;
 
 	}
 	.orcase .y_price{
 		color:#999;
-		font-size: 12px;
+		font-size: 0.16rem;
 	}
 	.orcase .y_price span{
 		text-decoration: line-through;
-		margin-left: 5px;
+		margin-left: 0.066667rem;
 	}
 	.detail-model{
-		font-size: 12px;
+		font-size: 0.16rem;
 		width:100%;	
 	}
 	.detail-add{
-		margin-left:12px;
-		padding:5px 12px 0 0;
+		margin-left:0.16rem;
+		padding:0.066667rem 0.16rem 0 0;
 	}
 	.detail-add .send{
 		display: inline-block;
 		color:#999;
-		width:42px;
-		height:23px;
+		width:0.56rem;
+		height:0.306667rem;
 	}
 	.detail-add .free{
-		font-size: 12px;
+		font-size: 0.16rem;
 		color:#d7063b;
 		display:inline;
-		border:1px solid #e60012;
-		border-radius: 2px;
-		margin-right: 4px;
+		border:0.013333rem solid #e60012;
+		border-radius: 0.026667rem;
+		margin-right: 0.053333rem;
 	}
 	.detail-add .s-address{
 		display: inline-block;
 	}
 	.detail-add .send_time{
 		overflow: hidden;
-		padding-left: 44px;
+		padding-left: 0.586667rem;
 		color:#999;
 	}
 	.detail-add .send_time img{
 		float: left;
 		display:block;
-		width: 65px;
-		height:65px;
+		width: 0.866667rem;
+		height:0.866667rem;
 	}
 	.detail-add .send_time p{
 		float: left;	
 	}
 	.detail-add .send_time .zrt{
-		height:65px;
-		line-height: 65px;
+		height:0.866667rem;
+		line-height: 0.866667rem;
 	}
 	.hr{
 		width:100%;
-		height:10px;
+		height:0.133333rem;
 		background-color: #e5e5e5;
 	}
 	.detail-send{
-		padding-bottom: 15px;
-		border-bottom:1px solid #ccc;
+		padding-bottom: 0.2rem;
+		border-bottom:0.013333rem solid #ccc;
 	}
 	.jifen{
 		width: 100%;
-		font-size: 12px;
+		font-size: 0.16rem;
 	}
 	.jifen .JF{
-		padding: 12px 15px;
+		padding: 0.16rem 0.2rem;
 	}
 	.jifen span{
 		display: inline-block;
 		color:#999;
-		width:42px;
-		height:23px;
+		width:0.56rem;
+		height:0.306667rem;
 	}
 	.jifen .getjf{
 		display: inline-block;
 	}
 	.comment{
 		width: 100%;
-		font-size: 14px;
+		font-size: 0.186667rem;
 		color:#666666;
 	}
 	.pl-contain{
 		overflow: hidden;
-		padding:14px 10px;
-		border-bottom: 1px solid #ccc;
+		padding:0.186667rem 0.133333rem;
+		border-bottom: 0.013333rem solid #ccc;
 	}
 	.comment .pl{ 
 		float: left;
 	}
 	.comment .goodp .bf{
 		color:#d7063b;
-		margin-left: 4px;
-		margin-right:5px;
+		margin-left: 0.053333rem;
+		margin-right:0.066667rem;
 	}
 	.comment .goodp{
 		float:right;
 	}
 	.pl-area{
 		width: 100%;
-		font-size: 14px;
+		font-size: 0.186667rem;
 		color:#333;
 	}
 	.pl-area ul li{
-		padding:10px 14px 15px 14px;
+		padding:0.133333rem 0.186667rem 0.2rem 0.186667rem;
 	}
 	.pl-area ul li p{
 		overflow: hidden;
@@ -334,25 +334,25 @@
 		float:right;
 	}
 	.pl-area .shihui{
-		padding-top: 10px;
+		padding-top: 0.133333rem;
 	}
 	.loadMore{
 		width:100%;
-		margin-bottom: 50px;
+		margin-bottom: 0.666667rem;
 	}
 	.loadMore .loadMore_pl{
-		padding-bottom: 15px;
+		padding-bottom: 0.2rem;
 		width: 100%;
 		text-align: center;
 	}
 	.loadMore .loadMore_pl a{
 		display:inline-block;
-		padding: 0 10px;
-		height: 36px;
-		line-height: 36px;
-		border:1px solid #ccc;
+		padding: 0 0.133333rem;
+		height: 0.48rem;
+		line-height: 0.48rem;
+		border:0.013333rem solid #ccc;
 		
-		font-size: 14px;
+		font-size: 0.186667rem;
 		margin:0 auto;
 	}
 </style>

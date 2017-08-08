@@ -24,35 +24,35 @@
 </script>
 <style scoped>
 	.searchlist{
-		padding:10px 0;
-		margin-top: 40px;
-		font-size:14px;
+		padding:0.133333rem 0;
+		margin-top: 0.533333rem;
+		font-size:0.186667rem;
 	}
 	.searchlist .list{
-		margin:0 10px;
+		margin:0 0.133333rem;
 	}
 	.searchlist .list li{
 		position: relative;
-		padding-left: 8px;
-		height:40px;
-		line-height: 40px;
-		border-bottom:1px solid #e5e5e5;
+		padding-left: 0.106667rem;
+		height:0.533333rem;
+		line-height: 0.533333rem;
+		border-bottom:0.013333rem solid #e5e5e5;
 	}
 	.classify{
 		position: absolute;
-		right:10px;
-		top:8px;
+		right:0.133333rem;
+		top:0.106667rem;
 	}
 	.classify span{
 		display: block;
 		float:left;
-		padding:0 7px;
-		margin-right: 6px;
+		padding:0 0.093333rem;
+		margin-right: 0.08rem;
 		background-color: #e5e5e5;
-		font-size:14px;
-		height:25px;
-		line-height: 25px;
-		border-radius: 4px;
+		font-size:0.186667rem;
+		height:0.333333rem;
+		line-height: 0.333333rem;
+		border-radius: 0.053333rem;
 		text-align: center;
 		color:#666;
 	}

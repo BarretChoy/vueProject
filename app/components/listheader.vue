@@ -48,12 +48,11 @@
 		top: 0;
 		left: 0;
 		z-index: 1;
-		font-size: 16px;
+		font-size: 0.213333rem;
 		width: 100%;
-		height: 50px;
+		height: 0.666667rem;
 		overflow: hidden;
-		/*text-align: center;*/
-		line-height: 50px;
+		line-height: 0.666667rem;
 		background-color: #fff;
 
 	}
@@ -63,57 +62,54 @@
 
 	}
 	.searchfram{
-		margin-left: 15px;
+		margin-left: 0.2rem;
 	}
 	.backsign{
-		/*font-size: 26px;*/
-		/*padding: 0 20px;*/
 		height: 100%;
 	}
 	.icon-fanhui1{
 		display: block;
 		height: 100%;
 		margin: auto 0;
-		width: 30px;
-		font-size: 24px;
+		width: 0.4rem;
+		font-size: 0.32rem;
 		text-align: center;
 	}
-	
 	.icon-sousuo{
-		height: 30px;
-		width: 24px;
+		height: 0.4rem;
+		width: 0.32rem;
 		display: inline-block;
-		line-height: 30px;
-		border-radius: 4px 0 0 4px;
+		line-height: 0.4rem;
+		border-radius: 0.053333rem 0 0 0.053333rem;
 		background-color: #eee;
-		padding-left: 2px;
-		padding-right: 2px;
-		font-size: 16px;
+		padding-left: 0.026667rem;
+		padding-right: 0.026667rem;
+		font-size: 0.213333rem;
 		text-align: center;
 		background-color: #e5e5e5;
 	}
 	.listsearch{
-		height: 30px;
+		display:inline-block;
+		height: 0.4rem;
 		border:none;
-		width: 230px;
-		border-radius: 0 4px 4px 0;
-		margin-bottom: 10px;
+		width: 3.066667rem;
+		border-radius: 0 0.053333rem 0.053333rem 0;
+		/*margin-bottom: 0.133333rem;*/
 		background-color: #eee;
-		margin-right: 14px;
-		margin-left:-8px;
+		margin: auto 0.186667rem auto -0.106667rem;
 		outline: none;
 		background-color: #e5e5e5;
 	}
 
 	.searchbtn button{
-		height: 30px;
-		width: 50px;
+		height: 0.4rem;
+		width: 0.666667rem;
 		color: #fff;
 		background-color: #d7063b;
-		line-height: 30px;
+		line-height: 0.4rem;
 		border:none;
-		border-radius: 4px;
-		font-size: 14px;
+		border-radius: 0.053333rem;
+		font-size: 0.186667rem;
 		text-align: center;
 	}
 </style>

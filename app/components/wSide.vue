@@ -111,9 +111,9 @@
 		list-style: none;
 	}
 	#content{
-		margin-top: 45px; 
+		margin-top: 0.6rem; 
 		position:relative;
-		height: 620px;
+		height: 8.266667rem;
 
 	}
 	
@@ -125,83 +125,83 @@
 		/* overflow: hidden; */
 	}
 	#content #J_wrapper{
-		width:90px;
+		width:1.2rem;
 		z-index: 555;
 		left:0;
 	}
 	 #content .scroller1{
 		position:fixed;
-		width: 90px;
+		width: 1.2rem;
 	}
 	#content .scroller1 ul{
-		width: 90px;
+		width: 1.2rem;
 	}
 	#content .scroller ul .current {
 		color: #FF5053;
-		border-left:3px solid #FF5053; 
+		border-left:0.04rem solid #FF5053; 
 		background: #fff;
 	} 
 	#content .scroller ul li {
-		line-height: 44px;
-		font-size: 14px;
-		width: 79px;
-		height: 44px;
+		line-height: 0.586667rem;
+		font-size: 0.186667rem;
+		width: 1.053333rem;
+		height: 0.586667rem;
 		color: #666;
 		background: #f4f4f4;
 		box-sizing: border-box;
-		padding: 0 3px;
+		padding: 0 0.04rem;
 		position: relative;
 		overflow: hidden;
 		white-space: nowrap;
 		text-overflow: ellipsis;
 		text-align: center;
-		border-bottom:1px solid #fff;
+		border-bottom:0.013333rem solid #fff;
 	}
 	#r_wrapper{
 		width: 100%;
 		z-index: -1;
 	}
 	#r_wrapper .contain{
-		padding-left:90px;
-		padding-right:10px; 
-		margin-top: 10px;
+		padding-left:1.2rem;
+		padding-right:0.133333rem; 
+		margin-top: 0.133333rem;
 	}
 	/* .banner a{
 	} */
 	#r_wrapper .banner a img{
-		height:90px;
+		height:1.2rem;
 		width: 100%; 
 	}
 	#listblock .title {
-    font-size: 14px;
+    font-size: 0.186667rem;
     color: #000;
     position: relative;
-    line-height: 40px;
-    height: 40px;
-    padding-left: 14px;
+    line-height: 0.533333rem;
+    height: 0.533333rem;
+    padding-left: 0.186667rem;
 } 
 	#listblock>ul li {
     float: left;
     width: 31.4%;
     margin-right: 1.4%;
-    margin-bottom: 10px;
+    margin-bottom: 0.133333rem;
 }
 #listblock>ul li a{
 	display: block;
 	color:#333;
 }
 #listblock>ul li p {
-    font-size: 14px;
+    font-size: 0.186667rem;
     color: #000;
-    padding-top: 5px;
-    padding-bottom: 12px;
+    padding-top: 0.066667rem;
+    padding-bottom: 0.16rem;
     width: 100%;
     text-align: center;
 }
 #listblock>ul li img{
 	border:none;
-	width:68px;
-	height:68px;
+	width:0.906667rem;
+	height:0.906667rem;
 	margin:auto;
 	display: block;
 }

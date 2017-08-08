@@ -66,37 +66,20 @@
 		position: relative;
 	}
 	.maylike{
-		height: 48px;
-		line-height: 48px;
+		height: 0.64rem;
+		line-height: 0.64rem;
 		text-align: center;
 		background-color: #eee;
-		font-size: 14px;
+		font-size: 0.186667rem;
 	}
 	i{
 		color: #d7063b;
-		font-size: 24px;
+		font-size: 0.32rem;
 	}
-	/*.recommend{
-		margin: 0 20px
-	}*/
-	/*.maylike :before{
-		width: 16%;
-    	height: 1px;
-   		background: #d7063b;
-    	content: '';
-    	display: inline-block;
-	}
-	.maylike :after{
-		width: 16%;
-    	height: 1px;
-   		background: #d7063b;
-    	content: '';
-    	display: inline-block;
-	}*/
 	.guesslike{
 		width: 100%;
 		height: 100%;
-		font-size: 16px;
+		font-size: 0.213333rem;
 	}
 	.guesslike ul{
 		overflow: hidden;
@@ -115,49 +98,49 @@
 		height: 100%;
 	}
 	.guesslikegoods{
-		padding: 0 10px;
-		font-size: 12px;
+		padding: 0 0.133333rem;
+		font-size: 0.16rem;
 	}
 	.guesslikeprice{
-		padding: 10px 10px 20px 10px;
+		padding: 0.133333rem 0.133333rem 0.266667rem 0.133333rem;
 		/*padding-bottom: 20px;*/
 	}
 	.guesslikeprice .oprice{
 		color: red;
-		font-size: 14px;
+		font-size: 0.186667rem;
 	}
 	.delete{
-		font-size: 12px;
+		font-size: 0.16rem;
 		color: #ddd;
 	}
 	.guessbuy{
-		width: 32px;
-		height: 32px;
-		border: 1px solid #d7063b;
+		width: 0.426667rem;
+		height: 0.426667rem;
+		border: 0.013333rem solid #d7063b;
 		border-radius: 50%;
 		position: absolute;
-		bottom: 8px;
-		right: 8px;
+		bottom: 0.106667rem;
+		right: 0.106667rem;
 		background-color: #fde9f0;
 	}
 	.nomore{
 		width: 100%;
 		background-color: #eee;
 		/*height: 120px;*/
-		padding-top: 20px;
-		padding-bottom: 20px;
-		margin-bottom: 50px;
+		padding-top: 0.266667rem;
+		padding-bottom: 0.266667rem;
+		margin-bottom: 0.666667rem;
 	}
 	.nomoreimg{
-		width: 80px;
-		height: 80px;
+		width: 1.066667rem;
+		height: 1.066667rem;
 		margin: 0 auto;
 		position: relative;
 	}
 	.nomoreimg:before{
 		content: "";
     	width: 80%;
-    	height: 1px;
+    	height: 0.013333rem;
     	background: #999;
     	position: absolute;
     	left: -89%;
@@ -166,20 +149,20 @@
 	.nomoreimg:after{
 		content: "";
     	width: 80%;
-    	height: 1px;
+    	height: 0.013333rem;
     	background: #999;
     	position: absolute;
     	right: -68%;
     	top: 40%;
 	}
 	.nomore img{
-		width: 60px;
-		height: 60px;
+		width: 0.8rem;
+		height: 0.8rem;
 	}
 	.nomorelast{
-		height: 20px;
-		line-height: 20px;
+		height: 0.266667rem;
+		line-height: 0.266667rem;
 		text-align: center;
-		font-size: 12px;
+		font-size: 0.16rem;
 	}
 </style>

@@ -28,28 +28,28 @@
 		    height: 0;
 		}
 	.hotSearch{
-		padding:12px 7px 3px;
-		margin-top: 40px;
-		font-size:14px;
+		padding:0.16rem 0.093333rem 0.04rem;
+		margin-top: 0.533333rem;
+		font-size:0.186667rem;
 	}
 	.hotTitle{
-		height:35px;
-		line-height: 35px;
-		padding-left: 10px;
+		height:0.466667rem;
+		line-height: 0.466667rem;
+		padding-left: 0.133333rem;
 	}
 	.hotTitle .icon{
-		margin-right: 4px;
+		margin-right: 0.053333rem;
 		color:#FF5053;
 	}
 	.hotlist{
-		padding-left: 10px;
+		padding-left: 0.133333rem;
 	}
 	.hotlist li{
-		padding:3px 14px;
+		padding:0.04rem 0.186667rem;
 		float:left;
-		margin-right: 10px;
-		margin-bottom: 10px;
-		border:1px solid #ccc;
-		border-radius: 3px;
+		margin-right: 0.133333rem;
+		margin-bottom: 0.133333rem;
+		border:0.013333rem solid #ccc;
+		border-radius: 0.04rem;
 	}
 </style>
