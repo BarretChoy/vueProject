@@ -2,8 +2,6 @@ const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 module.exports = {
 
 	entry: __dirname + "/app/js/main.js",
-
-	devtool: 'eval-source-map',
 	
 	output:{
 		filename:"bundle.js",
