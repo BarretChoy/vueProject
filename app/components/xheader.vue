@@ -37,10 +37,6 @@
 			header_search() {
 				var page = 1;
 				var text = document.getElementsByClassName('header_search')[0].value;
-				console.log(text)
-				// var xhr = new XMLHttpRequest();
-				// xhr.open('GET', 'http://localhost:1111/list?keyword=' + text + '&page=' + page, true);
-				// xhr.send();
 				location.hash = '#/list';
 			},
 			login() {

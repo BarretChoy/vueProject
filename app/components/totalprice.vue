@@ -19,7 +19,6 @@
 		computed:{
 			totalPrice(){
 				// 利用vuex传递数据
-				// console.log(this.$store.state.totalPrice)
 				return this.$store.state.totalPrice
 			},
 			ispostage(){

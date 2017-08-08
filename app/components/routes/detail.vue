@@ -156,7 +156,6 @@
 						if(item.username == self.username){
 							var goodCollection = JSON.parse(item.good_collection);
 							goodCollection.forEach(function(item){
-								console.log(item);
 								if(item == self.id){
 									self.heartlight=true;
 								}

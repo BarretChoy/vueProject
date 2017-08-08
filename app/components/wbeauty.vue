@@ -209,23 +209,10 @@
 		},
 		methods:{
 			abc(){
-				console.log(111);
 			}
 		},
 		mounted(){
-			var self =this;
-			console.log(this)
-			/*this.$http.get("http://10.3.137.186:1111/search",{
-				params:{
-					brand:"一叶子"
-				}
-			}).then((response) =>{
-
-				console.log(response)*/
-				/*self.detailNews = response.body.content;*/
-				// }).catch((error)=>{
-
-				// });
+			
 			}
 		}
 	</script>

@@ -152,7 +152,6 @@
 			},
 			changeLight(){
 				this.light=!this.light;
-				console.log(this.light)
 			}
 		},
 	}

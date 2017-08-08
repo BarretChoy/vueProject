@@ -94,11 +94,8 @@
  			totalprice(){
  				if(this.name){
  					var sum = 0;
- 					// console.log(this.lists)
  					for(var i=0;i<this.name.length;i++){
- 						// console.log(i)
  						sum += (this.name[i]['goods_price_now'] * this.name[i]['number']);
- 						// console.log(sum)
  					}
  					
  					this.$store.state.totalPrice = sum;
@@ -166,7 +163,6 @@
 				//上传购物车信息
  			},
  			delet_buy_good(delet_id){
- 				console.log(delet_id)
  			},
  			open (idnum,index) {
     			  this.dialog = true;

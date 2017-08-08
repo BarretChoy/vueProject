@@ -27,21 +27,7 @@
 				this.$store.state.classifyList = [];
 			},
 			search(keyword){
-				var self = this;
-				// console.log(1)
-				// console.log(keyword)
-				// this.$http.get("http://localhost:1111/list",{
-				// 	params:{
-				// 		keyword:keyword
-				// 	}
-				// }).then((data)=>{
-				// 	self.$store.state.classifyList=data.body;
-				// 	console.log(data.body)
-				// 	console.log(1111)
-				// }).catch((err)=>{
-					
-				// })
-				
+								
 			}
 
 		},

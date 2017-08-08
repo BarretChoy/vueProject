@@ -38,7 +38,6 @@
 				}
 			}.bind(this);
 			xhr.open('GET', './json/goods_index.json', true);
-			console.log('./json/goods_index.json')
 			xhr.send();
 		}
 	}

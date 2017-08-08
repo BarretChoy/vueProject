@@ -75,7 +75,6 @@
 		    	var self = this;
 		    	window.navigator.geolocation.getCurrentPosition(function(position){
 					theLocation(position.coords.longitude,position.coords.latitude);
-					console.log(position.coords.longitude,position.coords.latitude)
 				});
 
 		    	//根据经纬度还原地图信息

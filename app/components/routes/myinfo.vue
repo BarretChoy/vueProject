@@ -51,7 +51,7 @@
 		},
 		methods:{
 			goBack(){
-				history.back();
+				location.href = "#/mine";
 			}
 		},
 		mounted(){
