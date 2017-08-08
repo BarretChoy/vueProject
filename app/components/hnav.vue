@@ -73,7 +73,7 @@
 	
 	#mainMenu li {
 		float: left;
-		width: 1rem;
+		width: 20%;
 		font-size: 0.16rem;
 		text-align: center;
 		margin-bottom: 0.133333rem;
