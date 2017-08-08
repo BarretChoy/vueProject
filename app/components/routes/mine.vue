@@ -187,7 +187,7 @@
 				}
 			})
 			//通过用户名发送请求获取用户信息
-			this.$ajax.get("/json/user_info.json").then((data)=>{
+			this.$ajax.get("./json/user_info.json").then((data)=>{
 				var self = this;
 				for(var item of data.data.RECORDS){
 					if(item.username == self.username){
