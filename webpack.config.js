@@ -1,14 +1,10 @@
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 module.exports = {
-
 
 	entry: __dirname + "/app/js/main.js",
 
-	
-
-
 	devtool: 'eval-source-map',
 	
-
 	output:{
 		filename:"bundle.js",
 		path:__dirname + "/public"
@@ -43,6 +39,14 @@ module.exports = {
 			"vue": "vue/dist/vue.js"
 		}
 	},
+	//压缩代码
+	plugins: [
+		new UglifyJSPlugin({
+			compress: {
+				warnings: false
+			}
+		})
+	],
 	devServer: {
 		contentBase: "./public",
 		inline: true,
