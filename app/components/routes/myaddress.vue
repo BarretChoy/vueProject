@@ -54,7 +54,7 @@
 				}
 			})
 			//根据用户名获取地址信息
-			this.$ajax.get("/json/user_info.json").then((data)=>{
+			this.$ajax.get("./json/user_info.json").then((data)=>{
 				var self = this;
 				for(var item of data.data.RECORDS){
 					if(self.username == item.username){

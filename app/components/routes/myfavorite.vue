@@ -81,7 +81,7 @@
 					//如有收藏记录则进行筛选
 					if(item.good_collection){
 						if(item.username == self.username){
-							self.$ajax.get("/json/goods_list.json").then((data)=>{
+							self.$ajax.get("./json/goods_list.json").then((data)=>{
 								self.noFavoriteGoods = false;
 								var goodsArr = [];
 								//获取对应的商品
