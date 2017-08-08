@@ -9,8 +9,8 @@
 
 		<mu-dialog :open="citylocation_isShow" title="系统提示">
 			<p>检测到当前的城市为{{currentCity}},<br />是否切换?</p>
-			<mu-flat-button slot="actions" @click="citylocation_false" primary label="取消"/>
-			<mu-flat-button slot="actions" primary @click="citylocation_true" label="确定"/>
+			<mu-flat-button class="changeTips" slot="actions" @click="citylocation_false" primary label="取消"/>
+			<mu-flat-button class="changeTips" slot="actions" primary @click="citylocation_true" label="确定"/>
 		</mu-dialog>
 	</div>
 </template>
@@ -101,5 +101,10 @@
 		background: #E5E5E5;
 		opacity: 0.4;
 		z-index: 1000;
+	}
+
+	.changeTips{
+		font-size: 0.24rem;
+		color:#d7063b;
 	}
 </style>
