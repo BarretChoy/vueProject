@@ -8,7 +8,7 @@
 			</h1>
 		</header>
 		<mu-list class="info-list">
-			<mu-list-item title="用户名" :describeText="username">
+			<mu-list-item title="用户名" :describeText="username" inputClass="{'font-size':0.186667rem}">
 			</mu-list-item>
 			<mu-divider/>
 			<mu-list-item title="昵称">
@@ -107,6 +107,7 @@
 	/*列表样式*/
 	.info-list,.info-address,.info-phonenum{
 		background-color:#fff;
+		font-size: 0.186667rem;
 	}
 	.info-address,.info-phonenum{
 		margin-top: 0.2rem;

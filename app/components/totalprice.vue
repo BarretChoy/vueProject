@@ -1,8 +1,8 @@
 <template>
 	<div class="buycarfooter">
 		<div class="total">
-			<p style="font-size:14px">总计：
-				<span style="color:#d7063b">￥</span><span style="color:#d7063b;font-size:16px">{{totalPrice}}</span>
+			<p class="total-price">总计：
+				<span>￥</span><span class="current-price">{{totalPrice}}</span>
 			</p>
 
 			<p class="nomail" v-show="ispostage">免邮</p>
@@ -61,5 +61,12 @@
 	.nomail{
 		font-size: 0.186667rem;
 		color: #dadada;
+	}
+	.total-price{
+		font-size: 0.186667rem;
+	}
+	.total-price span{
+		color:#d7063b;
+		font-size:0.213333rem;
 	}
 </style>
