@@ -75,7 +75,7 @@
 				}
 			})
 			//根据用户名获取用户信息
-			this.$ajax.get("/json/user_info.json").then((data)=>{
+			this.$ajax.get("./json/user_info.json").then((data)=>{
 				var self = this;
 				for(var item of data.data.RECORDS){
 					//如有收藏记录则进行筛选
